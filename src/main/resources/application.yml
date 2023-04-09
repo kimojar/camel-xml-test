@@ -1,0 +1,13 @@
+spring:
+  #main:
+    #allow-circular-references: true
+
+camel:
+  health:
+    enabled: false
+  springboot:
+    main-run-controller: true # to keep the JVM running
+
+logging:
+  level:
+    org.springframework.boot.autoconfigure: error
